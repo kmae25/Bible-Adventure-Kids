@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Memory Verse Challenge</title>
+
+<link rel="stylesheet" href="../Design.css">
+</head>
+
+<body class="memory-page">
+<header>
+    <nav>
+            <div class="logo">
+    <img src="../Pictures/Bible.png" alt="Bible Adventure Kids Logo">
+</div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Stories/StoriesHOMEPage.html">Stories</a></li>
+            <li><a href="../BibleQuizGame/BibleQuizGame.html">Games</a></li>
+            <li><a href="../MemoryVerse/MemoryVerse.html">Memory Verse</a></li>
+            <li><a href="../About.html">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<div class="verse-container">
+<header>
+    <h1 style="color: #809c83;">Memory Verse Challenge</h1> 
+</header>
+    <h2>Fill in the missing word</h2>
+
+    <p class="verse-text"></p>
+
+    <input type="text" id="verse-input" placeholder="Type missing word...">
+
+    <button class="btn" id="checkBtn">Check Answer</button>
+
+    <p id="verse-feedback"></p>
+
+    <div id="verse-stars">⭐ Stars: 0</div>
+
+    <button class="btn reset-btn" id="nextBtn">Next Verse</button>
+
+</div>
+
+<script src="MemoryVerse.js"></script>
+<!--BACK BUTTON -->
+<div class="back-container">
+    <a href="../index.html" class="back-btn">← Back Home</a>
+</div>
+<!--FOOTER -->
+<footer>
+    <p>© 2026 Bible Adventure Kids | COM 215</p>
+</footer>
+
+<!-- JAVASCRIPT -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bible Quiz Game</title>
+
+<link rel="stylesheet" href="../Design.css">
+</head>
+
+<body class="game-page">
+
+<!-- HEADER / NAVIGATION -->
+<header>
+    <nav>
+            <div class="logo">
+    <img src="../Pictures/Bible.png" alt="Bible Adventure Kids Logo">
+</div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Stories/StoriesHOMEPage.html">Stories</a></li>
+            <li><a href="../BibleQuizGame/BibleQuizGame.html">Games</a></li>
+            <li><a href="../MemoryVerse/MemoryVerse.html">Memory Verse</a></li>
+            <li><a href="../About.html">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- GAME CONTAINER -->
+<div class="game-container">
+
+    <div id="stars">⭐ Stars: 0</div>
+
+    <h1>Bible Quiz Game</h1>
+
+    <div class="question" id="question">Question loads here</div>
+
+    <button class="btn answer-btn" onclick="checkAnswer(0)"></button>
+    <button class="btn answer-btn" onclick="checkAnswer(1)"></button>
+    <button class="btn answer-btn" onclick="checkAnswer(2)"></button>
+
+    <div class="feedback" id="feedback"></div>
+
+    <button class="btn next-btn" onclick="nextQuestion()">Next Question</button>
+
+</div>
+<!--BACK BUTTON -->
+<div class="back-container">
+    <a href="../index.html" class="back-btn">← Back Home</a>
+</div>
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Bible Adventure Kids | COM 215</p>
+</footer>
+
+<script src="../BibleQuizGame/BibleQuizGame.js"></script>
+</body>
+</html>
